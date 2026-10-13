@@ -1,84 +1,152 @@
-::: {align="center"}
-\# 📊 SuperStore Excel Dashboard \### Turning raw order data into clear
-business insights \*\*Excel Data Analysis • PivotTables • Formulas •
-Interactive Visualization\*\*\
-\![Excel\](https://img.shields.io/badge/Microsoft%20Excel-Dashboard-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-\![Project\](https://img.shields.io/badge/Project-Data%20Analysis-6C63FF?style=for-the-badge)
-\![Status\](https://img.shields.io/badge/Level-Beginner%20Friendly-FFB020?style=for-the-badge)
-:::
+<div align="center">
 
-\-\-- \## 👩‍💻 Project Information \| Detail \| Description \|
-\|\-\--\|\-\--\| \| \*\*Project Name\*\* \| SuperStore Excel Dashboard
-\| \| \*\*Created by\*\* \| \*\*Nemisha Dave\*\* \| \| \*\*Tool\*\* \|
-Microsoft Excel \| \| \*\*Dataset\*\* \| SuperStore Orders \| \|
-\*\*Project Type\*\* \| Data Cleaning, Analysis & Dashboarding \| \## 🎯
-Project Objective The goal of this project is to explore SuperStore
-order data and turn it into useful, easy-to-understand business insights
-using Microsoft Excel. The analysis focuses on sales, profit, product
-categories, regional performance, and trends over time. The dashboard is
-designed to help users explore the data through visual summaries and
-interactive filters. \## 🗂️ Workbook Structure The workbook may contain
-the following worksheets, depending on the features completed: \|
-Worksheet \| Purpose \| \|\-\--\|\-\--\| \| \`Sales_Data\` \| Source
-dataset containing order and sales details \| \| \`Pivot_Table\` \|
-Summaries created with PivotTables \| \| \`Formula_Analysis\` \|
-Practice and analysis using Excel formulas \| \| \`Dashboard\` \| Visual
-summary of key metrics and charts \| \| \`Instructions\` \| Notes
-explaining the workbook and how to use it \| \> \*\*Note:\*\* Worksheet
-names and available features may differ in the current workbook. Update
-this section as you finish the project. \## 🧹 Data Preparation The
-data-preparation stage includes: - Checking for duplicate records. -
-Identifying missing values. - Verifying date and numeric data types. -
-Formatting sales, profit, shipping cost, and discount values. - Keeping
-the source data organized for analysis. \## 📈 Analysis & Dashboard
-Features The planned dashboard can include: - \*\*Key Performance
-Indicators (KPIs):\*\* Total Sales, Total Profit, Total Quantity, and
-Total Orders. - \*\*Sales by Category:\*\* Compare sales across product
-categories. - \*\*Sales by Region:\*\* Understand regional sales
-performance. - \*\*Sales and Profit Trends:\*\* Review changes over
-time. - \*\*PivotTables and PivotCharts:\*\* Summarize large amounts of
-data. - \*\*Slicers and Timeline:\*\* Filter compatible PivotTables
-interactively. - \*\*Conditional Formatting:\*\* Highlight values that
-need attention. \## 🧮 Excel Functions Used \| Function \| Purpose \|
-\|\-\--\|\-\--\| \| \`SUM\` \| Calculate total sales, profit, or
-quantity \| \| \`COUNTA\` \| Count non-empty cells \| \| \`COUNTBLANK\`
-\| Check for missing values \| \| \`IF\` \| Return a result based on a
-condition \| \| Nested \`IF\` \| Classify values into multiple groups \|
-\| \`VLOOKUP\` \| Search for a value and return a related result \| \|
-\`INDEX\` + \`MATCH\` \| Find a matching record and return a related
-value \| \| \`UNIQUE\` \| Identify distinct values in supported Excel
-versions \| \### Example formulas \*\*Total Sales\*\* \`\`\`excel
-=SUM(SalesData\[sales\]) \`\`\` \*\*Classify a sales value\*\*
-\`\`\`excel =IF(A2\>=500,\"High Sales\",\"Low Sales\") \`\`\` \*\*Find a
-customer name by Order ID\*\* Assuming \`order_id\` is in column A and
-\`customer_name\` is in column E of \`Sales_Data\`: \`\`\`excel
-=VLOOKUP(A2,Sales_Data!A:E,5,FALSE) \`\`\` \*\*INDEX-MATCH
-alternative\*\* \`\`\`excel
-=INDEX(Sales_Data!E:E,MATCH(A2,Sales_Data!A:A,0)) \`\`\` \> Formula
-references depend on the workbook\'s actual table names, column order,
-and worksheet names. If a formula returns \`#N/A\`, verify that the
-lookup value exists and that the lookup range starts with the column
-being searched. \## 🚀 How to Use 1. Open
-\`Nemisha_ExcelDashboard.xlsx\` in Microsoft Excel. 2. Review the source
-data in \`Sales_Data\`. 3. Check the summaries in \`Pivot_Table\`. 4.
-Explore formulas in \`Formula_Analysis\`. 5. Open \`Dashboard\` to
-review the visual summaries, if created. 6. Use available slicers or the
-Timeline to filter the dashboard. 7. Save a copy before making major
-changes. \## ✅ Project Checklist - \[ \] Import and organize the
-dataset - \[ \] Check duplicates and missing values - \[ \] Verify data
-types and number formats - \[ \] Create PivotTables - \[ \] Demonstrate
-advanced formulas - \[ \] Create charts and apply conditional
-formatting - \[ \] Build KPI cards and an interactive dashboard - \[ \]
-Add slicers and a Timeline where supported - \[ \] Write workbook
-instructions - \[ \] Verify formulas and save the final \`.xlsx\` file
-\## 💡 Key Learning Outcomes By completing this project, I aim to
-strengthen my ability to: - Prepare and organize data in Excel. -
-Summarize information with PivotTables. - Apply lookup and logical
-functions. - Present data through meaningful charts. - Build a clear,
-user-friendly interactive dashboard. - Document an Excel project
-professionally. \## 👩‍🎓 Author \*\*Nemisha Dave\*\* \*Student \| Excel
-Data Analysis Project\* \-\--
+# 📊 SuperStore Sales & Profit Dashboard
 
-::: {align="center"}
-\*\*Made with 📊 Microsoft Excel and a curiosity for data.\*\*
-:::
+**An interactive Excel data-analysis project**
+
+*Turning raw order data into clear, useful business insights.*
+
+![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Data Analysis](https://img.shields.io/badge/Data%20Analysis-6C63FF?style=for-the-badge)
+![Dashboard](https://img.shields.io/badge/Interactive-Dashboard-0A7B83?style=for-the-badge)
+
+</div>
+
+---
+
+## 📌 Project Overview
+
+The **SuperStore Sales & Profit Dashboard** is a Microsoft Excel project created to explore order data and present business information in an organized, visual format.
+
+The project focuses on sales, profit, products, customers, regions, and trends over time. It combines data preparation, PivotTables, Excel formulas, and visual analysis in one workbook.
+
+## 🎯 Project Objectives
+
+- Prepare and organize the SuperStore dataset.
+- Summarize sales and profit using PivotTables.
+- Practise logical and lookup functions in Excel.
+- Visualize comparisons and trends using charts.
+- Create a clear, easy-to-navigate dashboard.
+- Document the workbook for future reference.
+
+## 🧰 Tools & Skills
+
+| Tool / Feature | Purpose |
+|---|---|
+| **Microsoft Excel** | Data preparation, analysis, and visualization |
+| **PivotTables** | Summarizing records by category, region, and year |
+| **Charts** | Presenting comparisons and trends visually |
+| **IF / Nested IF** | Applying conditions and classifying values |
+| **VLOOKUP** | Finding a value and returning related information |
+| **INDEX + MATCH** | Performing flexible lookups |
+| **SUM / COUNTA / COUNTBLANK** | Calculating totals and checking data completeness |
+| **Slicers / Timeline** | Filtering compatible PivotTables interactively |
+
+## 📁 Workbook Structure
+
+| Worksheet | Description |
+|---|---|
+| **Dashboard** | Main visual overview of the project |
+| **Analysis** | Supporting analysis and summaries |
+| **Data** | Source SuperStore order records |
+| **Pivot_Table** | PivotTable-based summaries |
+| **Advanced Formulas** | Formula practice and lookup analysis |
+
+*Worksheet names and available features reflect the workbook version and may be updated as the project develops.*
+
+## 📊 Dataset Overview
+
+The dataset includes fields related to orders, customers, products, shipping, and financial performance.
+
+| Data Area | Example Fields |
+|---|---|
+| **Order Details** | Order ID, Order Date, Ship Date, Ship Mode |
+| **Customer & Location** | Customer Name, Segment, State, Country, Market, Region |
+| **Product Details** | Product ID, Category, Sub-Category, Product Name |
+| **Performance Metrics** | Sales, Quantity, Discount, Profit, Shipping Cost |
+| **Additional Information** | Order Priority, Year |
+
+### Questions this dashboard can help explore
+
+- Which product categories generate the highest sales?
+- How do sales and profit differ across regions?
+- How does performance change over time?
+- Which product and order groups deserve further analysis?
+
+## 🧹 Data Preparation
+
+The data preparation process includes reviewing:
+
+- Duplicate records.
+- Missing values.
+- Date and numeric data types.
+- Number formats for sales, profit, quantity, shipping cost, and discount.
+
+> **Data-quality note:** Repeated Order IDs are not automatically duplicates. One order may contain multiple product lines, so records should be reviewed carefully before removing anything.
+
+## 🧮 Excel Formula Examples
+
+The workbook includes a dedicated area for practising logical and lookup formulas.
+
+### IF — Classify sales
+
+**Example:** Classify a sales value as High Sales when it is at least 500, and Low Sales otherwise.
+
+### VLOOKUP — Find related information
+
+Search for an Order ID and return the associated customer name. This requires the lookup range to begin with the Order ID column.
+
+### INDEX + MATCH — Flexible lookup
+
+MATCH locates the position of an Order ID, while INDEX returns the corresponding value from the customer-name column.
+
+**Important:** Lookup results depend on the actual worksheet names, column positions, and lookup value. If an Order ID appears on multiple rows, a standard lookup returns the first match.
+
+## 📈 Dashboard Features
+
+The dashboard can bring together:
+
+- **KPI cards:** Total Sales, Total Profit, Total Quantity, and Total Orders.
+- **Category analysis:** Sales comparison by product category.
+- **Regional analysis:** Sales and profit across regions.
+- **Trend analysis:** Performance over time.
+- **PivotCharts:** Visual summaries connected to PivotTables.
+- **Interactive filters:** Slicers and a Timeline, where configured and supported.
+
+*Only features that have been completed in the workbook should be described as finished in a final project submission.*
+
+## 🚀 How to Use the Workbook
+
+1. Open **Nemisha_ExcelDashboard.xlsx** in Microsoft Excel.
+2. Start with the **Dashboard** worksheet for the visual overview.
+3. Review **Analysis** and **Pivot_Table** for supporting summaries.
+4. Open **Data** to inspect the source records.
+5. Visit **Advanced Formulas** to review formula examples.
+6. Use available slicers or timeline controls to filter the analysis.
+7. Save a copy before making major changes.
+
+## 💡 Learning Outcomes
+
+Through this project, I am developing practical skills in:
+
+- Organizing and checking tabular data.
+- Summarizing information with PivotTables.
+- Using conditional and lookup functions.
+- Creating charts that communicate patterns clearly.
+- Designing a user-friendly Excel dashboard.
+- Documenting an analytical project professionally.
+
+## 👩‍💻 Author
+
+**Nemisha Dave**  
+*Excel Data Analysis & Dashboard Project*
+
+---
+
+<div align="center">
+
+**Built with Microsoft Excel 📈**
+
+*From raw data to meaningful insights.*
+
+</div>
